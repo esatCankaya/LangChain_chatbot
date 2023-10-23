@@ -1,0 +1,12 @@
+google_api_python_client==2.104.0
+google_auth_oauthlib==1.1.0
+langchain==0.0.320
+openai==0.27.10
+pdfplumber==0.10.2
+protobuf==3.20.3
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+streamlit==1.27.2
+streamlit_extras==0.3.4
+faiss-cpu==1.7.4
+tiktoken==0.3.3
