@@ -8,7 +8,7 @@ This section outlines the main components and files included in the project
 - .env > users must create an .env file to store their OpenAI API key.
 - db_creator.py > to create a vector store from your documents.
 - app.py > actual chatbot code
-- streamlit_example.py > example streamlit app code to get a User Interface
+- app_streamlit.py > example streamlit app code to get a User Interface
 
 ## Technologies Used
 List of the technologies and libraries used in the project
@@ -33,8 +33,8 @@ List of the technologies and libraries used in the project
   4. Using app.py
     - First you should change store_name variable according to your vectorstore name.
     - Now you can change the query inputs to your like and run the app.
-  5. Using streamlit_example.py
+  5. Using app_streamlit.py
     - If you want to provide a graphical user interface (GUI) for your chatbot, you can work on the streamlit_example.py file. Customize this file as needed to create         the user interface.
     - Make sure to set the store_name variable in streamlit_example.py to match the name of your vector store.
     - Now you can run the app using:
-       `streamlit run ./streamlit_example.py`
+       `streamlit run ./app_streamlit.py`
